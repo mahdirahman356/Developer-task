@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Luckiest+Guy&family=Permanent+Marker&display=swap');
+
+body {
+    position: relative;
+    width: 1440px;
+    height: 4399px;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgb(245, 245, 245);
+}
+
+header {
+    /* Vector */
+    width: 1440px;
+    height: 1440px;
+    background-image: url(Vector\ \(2\).png);
+}
+
+.logo {
+    position: absolute;
+    width: 121px;
+    height: 28px;
+    left: 20px;
+    right: 1299px;
+    top: 50px;
+    bottom: 4321px;
+}
+
+ul {
+    position: absolute;
+    width: 463px;
+    height: 68px;
+    left: 489px;
+    top: 30px;
+    border-radius: 80px;
+    margin: 0px;
+    background: rgb(255, 255, 255);    
+}
+
+.home {
+    /* Home */
+    position: absolute;
+    width: 46px;
+    height: 12px;
+    left: 55px;
+    top: 28px;
+    color: rgb(254, 80, 0);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.works {
+    position: absolute;
+    width: 50px;
+    height: 12px;
+    left: 141px;
+    top: 28px;
+    color: rgb(127, 127, 127);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: center;
+    list-style: none;
+
+}
+
+.about-us {
+    /* About us */
+    position: absolute;
+    width: 70px;
+    height: 12px;
+    left: 231px;
+    top: 28px;
+    color: rgb(127, 127, 127);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: center;
+    list-style: none;
+
+}
+
+.services {
+    position: absolute;
+    width: 68px;
+    height: 12px;
+    left: 341px;
+    top: 28px;
+    color: rgb(127, 127, 127);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: center;
+    list-style: none;
+
+}
+
+.chat-button {
+    position: absolute;
+    width: 148px;
+    height: 60px;
+    left: 1272px;
+    top: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 11px;
+    white-space: nowrap;
+    padding: 24px 28px 24px 28px;
+    border: 2px solid rgb(12, 15, 16);
+    border-radius: 40px;
+    box-shadow: inset 0px 1px 1px 3px rgb(25, 61, 66), 0px 1px 2px 0px rgba(2, 45, 51, 0.5);
+    background: rgb(2, 45, 51);
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: center;
+}
