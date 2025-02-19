@@ -245,7 +245,6 @@ header {
     font-family: Inter;
     font-size: 20px;
     font-weight: 600;
-    line-height: 24px;
     letter-spacing: 0%;
     text-align: left;
 }
@@ -648,7 +647,6 @@ header {
     font-family: Inter;
     font-size: 16px;
     font-weight: 500;
-    line-height: 24px;
     letter-spacing: -0.18px;
     text-align: left;
     white-space: nowrap;
@@ -702,7 +700,6 @@ header {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    gap: 8px;
     padding: 8px;
     border-radius: 12px;
     box-shadow: 0px 1px 2px 0px rgba(35, 39, 46, 0.08);
@@ -721,12 +718,17 @@ header {
     background: rgb(246, 247, 249);
 }
 
+.question-with-answer>div,
+.question>div {
+    display: flex;
+    justify-content: space-between;
+}
+
 .question-with-answer>div>h4 {
     color: rgb(254, 80, 0);
     font-family: Inter;
     font-size: 16px;
     font-weight: 600;
-    line-height: 24px;
     letter-spacing: 0px;
     text-align: left;
 }
@@ -736,7 +738,6 @@ header {
     font-family: Inter;
     font-size: 14px;
     font-weight: 400;
-    line-height: 20px;
     letter-spacing: 0px;
     text-align: left;
 }
@@ -745,19 +746,25 @@ header {
     display: flex;
     flex-direction: column;
     align-self: stretch;
-    padding: 24px 16px;
+    padding: 16px;
     border-radius: 8px;
-    box-shadow: 0px 1px 2px 0px rgba(35, 39, 46, 0.08);
 }
 
-.question >div >h4 {
+.question>div>h4 {
     color: rgb(35, 39, 46);
     font-family: Inter;
     font-size: 16px;
     font-weight: 600;
-    line-height: 24px;
     letter-spacing: 0px;
     text-align: left;
+}
+
+.question-line {
+    height: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 8px 0px;
+    border: 0.5px solid rgb(213, 217, 226);
 }
 
 /* footer section style*/
