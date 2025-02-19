@@ -702,7 +702,7 @@ header {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    gap: 8;
+    gap: 8px;
     padding: 8px;
     border-radius: 12px;
     box-shadow: 0px 1px 2px 0px rgba(35, 39, 46, 0.08);
@@ -737,6 +737,25 @@ header {
     font-size: 14px;
     font-weight: 400;
     line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.question {
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    padding: 24px 16px;
+    border-radius: 8px;
+    box-shadow: 0px 1px 2px 0px rgba(35, 39, 46, 0.08);
+}
+
+.question >div >h4 {
+    color: rgb(35, 39, 46);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
     letter-spacing: 0px;
     text-align: left;
 }
