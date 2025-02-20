@@ -12,9 +12,9 @@
 <body>
     <header>
         <!-- small-device-nev -->
-        <nav class="small-device-nev">
+        <nav class="small-device-nev" id="menuList">
             <p class="qanci">qanci.com</p>
-            <button class="close-button">
+            <button onclick="closeMenu()" class="close-button">
                 <img src="Vector (8).png" alt="">
                 CLOSE
             </button>
@@ -27,10 +27,17 @@
                     <li>About us</li>
                     <hr class="menu-border-line">
                     <li>Services</li>
+                    <li>
+                        <button class="button-chat">
+                            Let’s chat
+                            <span>•</span>
+                        </button>
+                    </li>
                 </ul>
-                <button class="button-chat">
-                    Let’s chat
-                </button>
+            </div>
+            <div class="home-indicator-container">
+                <div>
+                </div>
             </div>
         </nav>
         <!-- navbar section -->
@@ -56,7 +63,7 @@
                 Let’s chat
                 <span>•</span>
             </button>
-            <button class="menu">
+            <button onclick="opneMenu()" class="menu">
                 <img src="image fill.png" alt="">
                 Menu
             </button>
@@ -65,9 +72,9 @@
         <div>
             <h1 class="Development">Development</h1>
             <div>
-                <!-- <img class="vector-3" src="Vector (3).png" alt=""> -->
+                <img class="vector-3" src="Vector (3).png" alt="">
                 <h1 class="agency">Agency</h1>
-                <!-- <img class="vector-4" src="Vector (4).png" alt=""> -->
+                <img class="vector-4" src="Vector (4).png" alt="">
             </div>
         </div>
         <img class="header-image" src="Group 1000004158.png" alt="">
