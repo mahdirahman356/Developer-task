@@ -153,7 +153,6 @@ header {
     font-size: 120px;
     font-weight: 600;
     line-height: 116%;
-    letter-spacing: -3%;
     text-align: center;
 }
 
@@ -168,7 +167,6 @@ header {
     font-size: 120px;
     font-weight: 600;
     line-height: 116%;
-    letter-spacing: -3%;
     text-align: center;
 }
 
@@ -228,7 +226,7 @@ header {
 /* make-change */
 .text-container>.point {
     position: absolute;
-    font-size: 40px;
+    font-size: 30px;
     width: 14px;
     height: 14px;
     left: 394px;
@@ -443,7 +441,6 @@ header {
     font-size: 36px;
     font-weight: 500;
     line-height: 116%;
-    letter-spacing: -3%;
     text-align: center;
 }
 
@@ -500,7 +497,6 @@ header {
     font-size: 70px;
     font-weight: 600;
     line-height: 86%;
-    letter-spacing: -3%;
     text-align: left;
     white-space: nowrap;
 }
@@ -628,7 +624,7 @@ header {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    gap: 12;
+    gap: 12px;
     padding: 0px;
 }
 
@@ -658,7 +654,6 @@ header {
     font-size: 70px;
     font-weight: 600;
     line-height: 86%;
-    letter-spacing: -3%;
     text-align: left;
     white-space: nowrap;
 }
@@ -722,6 +717,12 @@ header {
 .question>div {
     display: flex;
     justify-content: space-between;
+}
+
+.question-with-answer>div>img,
+.question>div>img {
+    width: 24px;
+    height: 24px;
 }
 
 .question-with-answer>div>h4 {
@@ -791,9 +792,8 @@ header {
     font-family: Bunch;
     font-size: 70px;
     font-weight: 600;
-    line-height: 106%;
-    letter-spacing: -3%;
     text-align: center;
+    white-space: nowrap;
 }
 
 .get-in-touch-button {
@@ -1064,4 +1064,236 @@ header {
     line-height: 19px;
     letter-spacing: 0%;
     text-align: right;
+}
+
+@media screen and (max-width:390px) {
+    body {
+        width: 390px;
+        height: 4751px;
+    }
+
+    header {
+        background-image: none;
+    }
+
+    .nav-ul {
+        display: none;
+    }
+
+    .chat-button {
+        display: none;
+    }
+
+    .Development {
+        width: 349px;
+        height: 36px;
+        left: 21px;
+        top: 148px;
+        font-size: 56px;
+    }
+
+    .agency {
+        width: 199px;
+        height: 36px;
+        left: 100.42px;
+        top: 198.32px;
+        font-size: 56px;
+    }
+
+    .header-image {
+        width: 358px;
+        height: 356px;
+        left: 16px;
+        right: 16px;
+        top: 264px;
+        bottom: 4131px;
+        object-fit: cover;
+    }
+
+    .contact-us-container {
+        width: 358px;
+        height: 345px;
+        left: 16px;
+        top: 628px;
+        border-radius: 36px;
+    }
+
+    .text-container {
+        position: absolute;
+        width: 259px;
+        height: 97px;
+        left: 32px;
+        top: 32px;
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+
+    .text-container>.point {
+        position: static;
+    }
+
+    .text-container>p {
+        position: static;
+    }
+
+    .contact-us {
+        left: 32px;
+        top: 294px;
+    }
+
+    .contact-us-image {
+        left: 160px;
+        top: 150px;
+    }
+
+    .members-container {
+        width: 358px;
+        height: 577px;
+        left: 16px;
+        top: 982px;
+    }
+
+    .select-container {
+        width: 294px;
+        height: 200px;
+        left: 32px;
+        top: 36px;
+    }
+
+    .members-image {
+        width: 101px;
+        height: 118px;
+        left: 32px;
+        top: 340px;
+    }
+
+    .members-count {
+        width: 67px;
+        height: 23px;
+        left: 151px;
+        top: 375px;
+    }
+
+    .members-image-2 {
+        width: 101px;
+        height: 118px;
+        left: 151px;
+        top: 427px;
+    }
+
+    .members {
+        width: 83px;
+        height: 13px;
+        left: 32px;
+        top: 495px;
+    }
+
+    .carousel-container {
+        width: 358px;
+        height: 907px;
+        left: 16px;
+        top: 1820px;
+    }
+
+    .carousel-container>h2 {
+        width: 270px;
+        height: 79px;
+        left: 44px;
+        top: 80px;
+        font-size: 52px;
+        text-align: center;
+        font-weight: 600;
+        word-wrap: break-word;
+    }
+
+    .swiper-slide>img {
+        width: 326px;
+        height: 460px;
+    }
+
+    .carousel-container .swiper-slide {
+        width: 326px !important;
+        height: 460px;
+        margin-right: 8px;
+    }
+
+    .swiper-button-next {
+        top: 747px;
+        left: 183px;
+    }
+
+    .swiper-button-prev {
+        top: 747px;
+        left: 95px;
+    }
+
+    .question-container {
+        width: 358px;
+        height: 1098px;
+        left: 16px;
+        top: 2807px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .question-section-title {
+        position: static;
+        width: 358px;
+        height: 162px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .question-section-title>h2 {
+        font-size: 52px;
+        text-align: center;
+        white-space: normal;
+    }
+
+    .collapse-container {
+        position: static;
+        width: 358px;
+        height: 796px;
+        padding: 8px;
+    }
+
+    .footer-container {
+        width: 358px;
+        height: 750px;
+        left: 16px;
+        top: 3985px;
+    }
+
+    .footer-heading-content {
+        position: static;
+        width: 358px;
+        height: 286px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+        padding: 0px;
+        margin: 44px 0px;
+    }
+
+    .footer-heading {
+        position: static;
+        width: 358px;
+        height: 178px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        font-size: 52px;
+        white-space: normal;
+    }
+
+    .get-in-touch-button {
+        position: static;
+    }
+
+
 }
