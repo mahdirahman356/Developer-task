@@ -755,7 +755,6 @@ header {
 .collapse-container {
     position: absolute;
     width: 638px;
-    /* height: 588px; */
     left: 732px;
     top: 70px;
     display: flex;
@@ -1163,7 +1162,8 @@ header {
         width: 390px;
         background-image: none;
     }
-
+     
+    /* navbar-section */
     .logo {
         left: 20px;
         right: 249px;
@@ -1323,6 +1323,8 @@ header {
         display: none;
     }
 
+    /* heading-section */
+
     .Development {
         width: 349px;
         height: 36px;
@@ -1362,6 +1364,8 @@ header {
         bottom: 4131px;
         object-fit: cover;
     }
+
+    /* content-us-and-members-section */
 
     .contact-us-container {
         width: 358px;
@@ -1442,6 +1446,7 @@ header {
         top: 495px;
     }
 
+    /* logos-section */
 
     .logos {
         height: 161px;
@@ -1469,6 +1474,8 @@ header {
         right: 0;
         top: 1673px;
     }
+
+    /* carousel-section */
 
     .carousel-container {
         width: 358px;
@@ -1512,6 +1519,8 @@ header {
         top: 747px;
         left: 95px;
     }
+
+    /* asked-questions-section */
 
     .question-container {
         width: 358px;
@@ -1565,9 +1574,10 @@ header {
     .collapse-container {
         position: static;
         width: 358px;
-        /* height: 796px; */
         padding: 8px;
     }
+
+    /* footer-section */
 
     .footer-container {
         width: 358px;
