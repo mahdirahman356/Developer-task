@@ -520,7 +520,7 @@ header {
 
 .blur-1 {
     position: absolute;
-    width: 247px;
+    width: 130px;
     height: 119px;
     left: 0px;
     top: 1589px;
@@ -530,7 +530,7 @@ header {
 
 .blur-2 {
     position: absolute;
-    width: 247px;
+    width: 130px;
     height: 119px;
     top: 1589px;
     right: 0;
@@ -1444,7 +1444,8 @@ header {
 
 
     .logos {
-        width: 358px;
+        height: 161px;
+        width: 322px;
         top: 1623px;
         right: 16px;
     }
@@ -1456,14 +1457,14 @@ header {
     }
 
     .blur-1 {
-        width: 50px;
+        width: 130px;
         height: 119px;
         left: 0px;
         top: 1673px;
     }
 
     .blur-2 {
-        width: 50px;
+        width: 130px;
         height: 119px;
         right: 0;
         top: 1673px;
