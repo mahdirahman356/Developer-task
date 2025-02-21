@@ -478,7 +478,7 @@ header {
     left: 29px;
     right: 29px;
     top: 1553px;
-    bottom: 2727px;
+    overflow: hidden;
 }
 
 .logos>p {
@@ -517,6 +517,26 @@ header {
     }
 }
 
+
+.blur-1 {
+    position: absolute;
+    width: 247px;
+    height: 119px;
+    left: 0px;
+    top: 1589px;
+    filter: blur(64px);
+    background: rgb(245, 245, 245);
+}
+
+.blur-2 {
+    position: absolute;
+    width: 247px;
+    height: 119px;
+    top: 1589px;
+    right: 0;
+    filter: blur(64px);
+    background: rgb(245, 245, 245);
+}
 
 /* carousel-section */
 
@@ -735,7 +755,7 @@ header {
 .collapse-container {
     position: absolute;
     width: 638px;
-    height: 588px;
+    /* height: 588px; */
     left: 732px;
     top: 70px;
     display: flex;
@@ -848,7 +868,7 @@ header {
     width: 204px;
     height: 68px;
     left: 598px;
-    top: 273px;
+    top: 295px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1435,6 +1455,20 @@ header {
         padding-left: 29px;
     }
 
+    .blur-1 {
+        width: 50px;
+        height: 119px;
+        left: 0px;
+        top: 1673px;
+    }
+
+    .blur-2 {
+        width: 50px;
+        height: 119px;
+        right: 0;
+        top: 1673px;
+    }
+
     .carousel-container {
         width: 358px;
         height: 907px;
@@ -1530,7 +1564,7 @@ header {
     .collapse-container {
         position: static;
         width: 358px;
-        height: 796px;
+        /* height: 796px; */
         padding: 8px;
     }
 
