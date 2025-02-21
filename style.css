@@ -153,9 +153,8 @@ header {
 .Development {
     position: absolute;
     width: 748px;
-    height: 78px;
     left: 346px;
-    top: 180px;
+    top: 140px;
     color: rgb(2, 45, 51);
     font-family: Bunch;
     font-size: 120px;
@@ -167,9 +166,8 @@ header {
 .agency {
     position: absolute;
     width: 425px;
-    height: 78px;
     left: 517px;
-    top: 287px;
+    top: 247px;
     color: rgb(2, 45, 51);
     font-family: Bunch;
     font-size: 120px;
@@ -178,7 +176,7 @@ header {
     text-align: center;
 }
 
-.vector-3 {
+.header-icon-1 {
     /* Vector */
     position: absolute;
     width: 100px;
@@ -187,13 +185,12 @@ header {
     top: 286px;
 }
 
-.vector-4 {
+.header-icon-2 {
     position: absolute;
     width: 76px;
     height: 76px;
-    left: 1033px;
+    left: 983px;
     top: 281px;
-    transform: rotate(180.00deg);
 }
 
 .header-image {
@@ -303,7 +300,6 @@ header {
     width: 148px;
     height: 44px;
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
     padding: 16px 24px 16px 24px;
@@ -320,7 +316,6 @@ header {
     width: 106px;
     height: 44px;
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 10;
@@ -339,7 +334,6 @@ header {
     width: 102px;
     height: 44px;
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 10;
@@ -358,7 +352,6 @@ header {
     width: 117px;
     height: 44px;
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 10;
@@ -377,7 +370,6 @@ header {
     width: 86px;
     height: 44px;
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 10;
@@ -396,7 +388,6 @@ header {
     width: 80px;
     height: 44px;
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 10;
@@ -415,7 +406,6 @@ header {
     width: 167px;
     height: 44px;
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 10;
@@ -686,7 +676,6 @@ header {
     width: 201px;
     height: 24px;
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 8px;
@@ -736,6 +725,10 @@ header {
     letter-spacing: 0%;
     text-align: center;
     white-space: nowrap;
+}
+
+.Real-all-FAQs-small-divice {
+    display: none;
 }
 
 
@@ -888,6 +881,23 @@ header {
     border: 1px solid rgba(255, 255, 255, 0.12);
 }
 
+.footer-menu-container div:nth-child(1) {
+    order: 1;
+}
+
+/* Quick Links */
+.footer-menu-container div:nth-child(2) {
+    order: 2;
+}
+
+/* Contact Us */
+.footer-menu-container div:nth-child(3) {
+    order: 3;
+}
+
+/* Follow Us */
+
+
 .Quick-links {
     position: absolute;
     width: 84px;
@@ -905,7 +915,7 @@ header {
 
 
 
-.Quick-links-container>.home {
+.footer-menu-home {
     position: absolute;
     width: 46px;
     height: 12px;
@@ -920,7 +930,7 @@ header {
     text-align: center;
 }
 
-.Quick-links-container>.work {
+.footer-menu-work {
     position: absolute;
     width: 50px;
     height: 12px;
@@ -936,7 +946,7 @@ header {
     list-style: none;
 }
 
-.Quick-links-container>.about-us {
+.footer-menu-about-us {
     position: absolute;
     width: 70px;
     height: 12px;
@@ -952,7 +962,7 @@ header {
     list-style: none;
 }
 
-.Quick-links-container>.services {
+.footer-menu-services {
     position: absolute;
     width: 68px;
     height: 12px;
@@ -996,6 +1006,7 @@ header {
     line-height: 19px;
     letter-spacing: 0%;
     text-align: left;
+    list-style: none;
 }
 
 .follow-us {
@@ -1026,6 +1037,7 @@ header {
     line-height: 19px;
     letter-spacing: 0%;
     text-align: left;
+    list-style: none;
 }
 
 .instagram {
@@ -1041,6 +1053,7 @@ header {
     line-height: 19px;
     letter-spacing: 0%;
     text-align: left;
+    list-style: none;
 }
 
 .twitter {
@@ -1056,6 +1069,7 @@ header {
     line-height: 19px;
     letter-spacing: 0%;
     text-align: left;
+    list-style: none;
 }
 
 .linkedin {
@@ -1071,6 +1085,7 @@ header {
     line-height: 19px;
     letter-spacing: 0%;
     text-align: left;
+    list-style: none;
 }
 
 .copyright {
@@ -1167,7 +1182,6 @@ header {
         left: 256px;
         top: 20px;
         display: flex;
-        flex-direction: row;
         justify-content: center;
         align-items: center;
         gap: 8px;
@@ -1192,7 +1206,6 @@ header {
         left: 266px;
         top: 22px;
         display: flex;
-        flex-direction: row;
         justify-content: center;
         align-items: center;
         gap: 12px;
@@ -1294,7 +1307,7 @@ header {
         width: 349px;
         height: 36px;
         left: 21px;
-        top: 148px;
+        top: 133px;
         font-size: 50px;
     }
 
@@ -1302,8 +1315,22 @@ header {
         width: 199px;
         height: 36px;
         left: 100.42px;
-        top: 198.32px;
+        top: 183.32px;
         font-size: 50px;
+    }
+
+    .header-icon-1 {
+        width: 47.03px;
+        height: 35.27px;
+        left: 49.1px;
+        top: 197.85px;
+    }
+
+    .header-icon-2 {
+        width: 35.74px;
+        height: 35.74px;
+        left: 305.08px;
+        top: 195.5px;
     }
 
     .header-image {
@@ -1476,6 +1503,30 @@ header {
         white-space: normal;
     }
 
+    .Real-all-FAQs {
+        display: none;
+    }
+
+    .Real-all-FAQs-small-divice {
+        width: 174px;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 11px;
+        padding: 24px 28px 24px 28px;
+        border: 2px solid rgb(12, 15, 16);
+        border-radius: 40px;
+        box-shadow: inset 0px 1px 1px 3px rgb(25, 61, 66), 0px 1px 2px 0px rgba(2, 45, 51, 0.5);
+        background: rgb(2, 45, 51);
+        color: rgb(255, 255, 255);
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 600;
+        text-align: center;
+        white-space: nowrap;
+    }
+
     .collapse-container {
         position: static;
         width: 358px;
@@ -1488,7 +1539,6 @@ header {
         height: 750px;
         left: 16px;
         top: 3985px;
-        display: none;
     }
 
     .footer-heading-content {
@@ -1498,20 +1548,18 @@ header {
         flex-direction: column;
         align-items: center;
         gap: 40px;
-        padding: 0px;
-        margin: 44px 0px;
+        align-self: stretch;
+        margin-top: 80px;
     }
 
     .footer-heading {
         position: static;
         width: 358px;
         height: 178px;
-        margin: 40px 0px;
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: center;
         font-size: 52px;
+        font-weight: 600;
+        line-height: 92%;
+        text-align: center;
         white-space: normal;
     }
 
@@ -1521,30 +1569,117 @@ header {
         height: 68px;
     }
 
-    .Quick-links-content {
+    .footer-menu-container {
         position: relative;
-        width: 84px;
         height: 190px;
-        margin: 0px 36px;
+        display: flex;
+        flex-direction: row;
+        gap: 36px;
+        padding: 0px 20px 0px 20px;
     }
 
-    .Quick-links {
+
+    .Quick-links-container {
+        position: static;
+        width: 84px;
+        height: 190px;
+    }
+
+    .footer-contact-us-container {
+        position: static;
+        width: 84px;
+        height: 71px;
+    }
+
+    .follow-us-container {
+        position: static;
+        width: 78px;
+        height: 190px;
+    }
+
+    .footer-menu-container div:nth-child(1) {
+        order: 1;
+    }
+
+    /* Quick Links */
+    .footer-menu-container div:nth-child(3) {
+        order: 2;
+    }
+
+    /* Follow Us */
+    .footer-menu-container div:nth-child(2) {
+        order: 3;
+    }
+
+    /* Contact Us */
+
+    .footer-menu-container>div {
+        position: static;
+        height: 190px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-menu-container>div>.Quick-links {
+        width: 84px;
+        height: 12px;
+        top: 0;
         left: 20px;
+    }
+
+    .footer-menu-container>div>.follow-us {
+        width: 72px;
+        height: 12px;
+        left: 140px;
         top: 0;
     }
 
-    .Quick-links-container {
-        position: absolute;
-        width: 70px;
-        height: 150px;
-        top: 40px;
-        left: 20px;
+    .footer-menu-container>div>.footer-contact-us {
+        width: 84px;
+        height: 12px;
+        left: 254px;
+        top: 0;
     }
 
-    .Quick-links-container>.home,
-    .Quick-links-container>.works,
-    .Quick-links-container>.about-us .Quick-links-container>.services {
+    #footer-menu-home {
+        margin-left: 13px;
+    }
+
+    .footer-menu-container>div>ul>li {
         position: static;
+    }
+
+    .footer-menu-container>div>ul {
+        position: relative;
+        width: 70px;
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+        gap: 34px;
+        margin-top: 40px;
+    }
+
+    .line,
+    .line-2 {
+        position: static;
+        width: 358px;
+        height: 0;
+        margin: 44px 0px;
+    }
+
+    .privacy-policy {
+        display: none;
+    }
+
+    .website-terms {
+        display: none;
+    }
+
+    .copyright {
+        width: 172px;
+        height: 12px;
+        left: 93px;
+        top: 710px;
     }
 
 }
