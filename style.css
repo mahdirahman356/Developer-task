@@ -1645,6 +1645,16 @@ header {
         margin-left: 13px;
     }
 
+
+    .email {
+        width: 84px;
+        height: 31px;
+        left: 254px;
+        top: 40px;
+        word-break: break-all;
+        overflow-wrap: break-word;
+    }
+
     .footer-menu-container>div>ul>li {
         position: static;
     }
